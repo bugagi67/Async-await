@@ -1,0 +1,19 @@
+{
+  "name": "async_await",
+  "version": "1.0.0",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/86xapp1v6qry5m12?svg=true)](https://ci.appveyor.com/project/bugagi67/promise)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src --coverage",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development",
+    "lint": "eslint src",
+    "lintfix": "eslint src --fix",
+    "babel": "babel src -d dist"
+  },
+  "author": "Dmitry Greshnov",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.37.1"
+  }
+}
